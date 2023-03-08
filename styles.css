@@ -1,0 +1,28 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    background-color: azure;
+    
+  
+}
+
+.emoji{
+    flex-grow: 4;
+}
+
+@media screen and (max-width: 760px) {
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: azure;
+    }
+    
+    .emoji{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: blueviolet;
+      
+    }
+    
+}
