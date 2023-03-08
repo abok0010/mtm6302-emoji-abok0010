@@ -1,3 +1,5 @@
+//javascript//
+
 const Gallery = document.getElementById("gallery");
 
 let emojis = [];
